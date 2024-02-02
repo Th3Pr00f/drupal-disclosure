@@ -1,0 +1,5 @@
+argparse
+requests
+beautifulsoup4
+urllib3
+alive-progress
