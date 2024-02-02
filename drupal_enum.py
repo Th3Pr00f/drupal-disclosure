@@ -104,7 +104,7 @@ def check_vulnerability(base_url, proxy=None):
             # Extract usernames
             print(f"\nGrabbing the names from {website_name}...")
 
-            for letter in "z":
+            for letter in "1234567890abcdefghijklmnopqrstuvwxyz":
                 url = full_url + "/" + payload.replace("a", letter)
 
                 try:
