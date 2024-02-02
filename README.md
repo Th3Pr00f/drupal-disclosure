@@ -29,7 +29,13 @@ The Views module's vulnerability affects Drupal 6.16 with Views 6.x-2.9, 6.x-2.1
 
 # Installation
 
+```git clone https://github.com/Th3Pr00f/drupal-disclosure.git```
+
+```cd drupal-disclosure```
+
 ```pip install -r requirements.txt```
+
+```python drupal_enum.py -h```
 
 # Usage:
 ``` 
